@@ -1,0 +1,199 @@
+{
+  "weapons": [
+    {
+      "name": "Broadsword",
+      "type": "weapon",
+      "description": "A sturdy sword that grants 3 attack dice.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 3,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Battle Axe",
+      "type": "weapon",
+      "description": "Massive damage with 4 attack dice; prevents use of shield.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 4,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Shortsword",
+      "type": "weapon",
+      "description": "A light sword that allows diagonal attacks and yields 2 attack dice.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 2,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Staff",
+      "type": "weapon",
+      "description": "Usable by spellcasters; grants 2 attack dice and diagonal reach.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 2,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "description": "Small blade with 1 attack die; can be thrown once.",
+      "armory": true,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 1,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Spear",
+      "type": "weapon",
+      "description": "Long spear with diagonal reach and 2 attack dice.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 2,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Crossbow",
+      "type": "weapon",
+      "description": "Ranged weapon granting 3 attack dice.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 3,
+        "defendDice": 0
+      }
+    }
+  ],
+  "armor": [
+    {
+      "name": "Chainmail",
+      "type": "armor",
+      "description": "Adds 1 defend die; usable by all heroes except Wizard.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 1
+      }
+    },
+    {
+      "name": "Plate Mail",
+      "type": "armor",
+      "description": "Adds 2 defend dice; slows movement; not for Wizard.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 2
+      }
+    }
+  ],
+  "shields": [
+    {
+      "name": "Shield",
+      "type": "shield",
+      "description": "Adds 1 defend die; cannot be used with Battle Axe or Crossbow.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 1
+      }
+    }
+  ],
+  "helmets": [
+    {
+      "name": "Helmet",
+      "type": "helmet",
+      "description": "Adds 1 defend die.",
+      "armory": true,
+      "throwable": false,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 1
+      }
+    }
+  ],
+  "items": [
+    {
+      "name": "Potion of Healing",
+      "type": "item",
+      "description": "Restores up to 1d6 Body Points when consumed.",
+      "armory": false,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Potion of Strength",
+      "type": "item",
+      "description": "Grants +1 attack die on your next attack roll.",
+      "armory": false,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 1,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Potion of Defense",
+      "type": "item",
+      "description": "Grants +2 defend dice on your next defense roll.",
+      "armory": false,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 2
+      }
+    },
+    {
+      "name": "Potion of Speed",
+      "type": "item",
+      "description": "Allows you to move twice on your turn.",
+      "armory": false,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Holy Water",
+      "type": "item",
+      "description": "If used instead of attacking, instantly kills one undead creature (Skeleton, Zombie, Mummy).",
+      "armory": false,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 0
+      }
+    },
+    {
+      "name": "Heroic Brew",
+      "type": "item",
+      "description": "Drink before attacking to make two attacks instead of one (two separate attack actions).",
+      "armory": false,
+      "throwable": true,
+      "modifiers": {
+        "attackDice": 0,
+        "defendDice": 0
+      }
+    }
+  ]
+}

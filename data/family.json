@@ -1,0 +1,78 @@
+{
+  "name": "family",
+  "heroes": [
+    {
+      "id": "barbarian",
+      "name": "Bronan",
+      "hp": 8,
+      "maxHp": 8,
+      "mp": 2,
+      "maxMp": 2,
+      "gold": 110,
+      "weapons": [
+        "Broadsword",
+        "Staff"
+      ],
+      "equippedWeapon": "Broadsword",
+      "armor": null,
+      "helmet": "Helmet",
+      "shield": null,
+      "items": [],
+      "portrait": "default.png"
+    },
+    {
+      "id": "dwarf",
+      "name": "DaverPrate",
+      "hp": 7,
+      "maxHp": 7,
+      "mp": 3,
+      "maxMp": 3,
+      "gold": 100,
+      "weapons": [
+        "Shortsword"
+      ],
+      "equippedWeapon": "Shortsword",
+      "armor": null,
+      "helmet": "Helmet",
+      "shield": "Shield",
+      "items": [],
+      "portrait": "default.png"
+    },
+    {
+      "id": "elf",
+      "name": "Lina",
+      "hp": 6,
+      "maxHp": 6,
+      "mp": 4,
+      "maxMp": 4,
+      "gold": 100,
+      "weapons": [
+        "Shortsword"
+      ],
+      "equippedWeapon": "Shortsword",
+      "armor": null,
+      "helmet": null,
+      "shield": null,
+      "items": [],
+      "portrait": "default.png"
+    },
+    {
+      "id": "wizard",
+      "name": "Fumbledore",
+      "hp": 3,
+      "maxHp": 4,
+      "mp": 6,
+      "maxMp": 6,
+      "gold": 100,
+      "weapons": [
+        "Dagger"
+      ],
+      "equippedWeapon": "Dagger",
+      "armor": null,
+      "helmet": null,
+      "shield": null,
+      "items": [],
+      "portrait": "default.png"
+    }
+  ]
+}

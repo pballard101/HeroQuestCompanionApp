@@ -1,0 +1,81 @@
+{
+  "name": "NewQuest",
+  "heroes": [
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "hp": 8,
+      "maxHp": 8,
+      "mp": 2,
+      "maxMp": 2,
+      "gold": 100,
+      "weapon": "Broadsword",
+      "armor": null,
+      "helmet": null,
+      "shield": null,
+      "items": [],
+      "portrait": "default.png",
+      "weapons": [
+        "Broadsword"
+      ],
+      "equippedWeapon": "Broadsword"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "hp": 7,
+      "maxHp": 7,
+      "mp": 3,
+      "maxMp": 3,
+      "gold": 100,
+      "weapon": "r",
+      "armor": null,
+      "helmet": null,
+      "shield": null,
+      "items": [],
+      "portrait": "default.png",
+      "weapons": [
+        "Shortsword"
+      ],
+      "equippedWeapon": "Shortsword"
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "hp": 6,
+      "maxHp": 6,
+      "mp": 4,
+      "maxMp": 4,
+      "gold": 100,
+      "weapon": "Dagger",
+      "armor": null,
+      "helmet": null,
+      "shield": null,
+      "items": [],
+      "portrait": "default.png",
+      "weapons": [
+        "Shortsword"
+      ],
+      "equippedWeapon": "Dagger"
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "hp": 4,
+      "maxHp": 4,
+      "mp": 6,
+      "maxMp": 6,
+      "gold": 100,
+      "weapon": "Dagger",
+      "armor": null,
+      "helmet": null,
+      "shield": null,
+      "items": [],
+      "portrait": "default.png",
+      "weapons": [
+        "Dagger"
+      ],
+      "equippedWeapon": "Dagger"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "sample_party",
+  "heroes": [
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "hp": 7,
+      "maxHp": 8,
+      "mp": 2,
+      "maxMp": 2,
+      "gold": 250,
+      "weapon": "Broadsword",
+      "armor": "Chainmail",
+      "helmet": null,
+      "shield": "Shield",
+      "items": [
+        "Potion of Healing"
+      ],
+      "portrait": "barbarian.png"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "hp": 6,
+      "maxHp": 7,
+      "mp": 3,
+      "maxMp": 3,
+      "gold": 180,
+      "weapon": "Shortsword",
+      "armor": "Chainmail",
+      "helmet": "Helmet",
+      "shield": "Shield",
+      "items": [
+        "Torch",
+        "Rope"
+      ],
+      "portrait": "dwarf.png"
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "hp": 5,
+      "maxHp": 6,
+      "mp": 4,
+      "maxMp": 4,
+      "gold": 320,
+      "weapon": "Shortsword",
+      "armor": "Leather",
+      "helmet": null,
+      "shield": null,
+      "items": [
+        "Potion of Healing",
+        "Rope",
+        "Holy Water"
+      ],
+      "portrait": "elf.png"
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "hp": 3,
+      "maxHp": 4,
+      "mp": 5,
+      "maxMp": 6,
+      "gold": 150,
+      "weapon": "Dagger",
+      "armor": "Cloth",
+      "helmet": null,
+      "shield": null,
+      "items": [
+        "Potion of Healing",
+        "Holy Water",
+        "Torch"
+      ],
+      "portrait": "wizard.png"
+    }
+  ]
+}
